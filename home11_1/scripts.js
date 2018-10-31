@@ -35,26 +35,3 @@ $('.faq h3').on('click', function(){
 });
 
 
-
-
-
-
-
-
-
-
-for (var i = 1; i <= 10; i++) {
-	var newDiv = document.createElement('div');
-	var title = document.createElement('h3');
-	var image = document.createElement('div');
-
-	newDiv.className = 'item item2 item3';
-	image.className = 'image';
-	title.innerText = 'Запис';
-	image.innerHTML = '<img src="https://picsum.photos/400?image='+i+'" alt="Запис '+i+'">';
-
-	$(newDiv).append(image);
-	$(newDiv).append(title);
-	
-	$('.others').append(newDiv);
-}
