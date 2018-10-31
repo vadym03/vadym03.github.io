@@ -1,0 +1,31 @@
+footer{
+	padding: 30px 0;
+	background: #666;
+
+	color: #fff;
+	text-align: center;
+}
+main{
+	margin: 50px 0;
+}
+main .item{
+	display: none;
+	-webkit-transition: .5s linear;
+	-o-transition: .5s linear;
+	transition: .5s linear;
+}
+main .item img{
+	width: 100%;
+}
+
+.faq p{
+	display: none;
+}
+
+.faq h3{
+	border: 1px solid #666;
+	padding: 10px 15px;
+	background: #999;
+	cursor: pointer;
+	color: #fff;
+}

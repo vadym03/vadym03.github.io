@@ -1,0 +1,21 @@
+footer{
+	padding: 30px 0;
+	background: #666;
+
+	color: #fff;
+	text-align: center;
+}
+main{
+	margin: 50px 0;
+}
+main .item{
+	-webkit-transition: .5s linear;
+	-o-transition: .5s linear;
+	transition: .5s linear;
+
+	margin-bottom: 20px;
+}
+main .item img{
+	width: 100%;
+}
+
